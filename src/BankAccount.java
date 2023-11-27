@@ -11,12 +11,13 @@ public class BankAccount{
     String  accountHolderPhoneNumber;
     String accountHolderEmail;
     Boolean isMinorAccount;
-    final String BANK_NAME="TRUIST";
+    final String BANK_NAME="Bank of Amrica";
 
     public static void main(String[] args) {
         BankAccount dayaAccount = new BankAccount();
         BankAccount abcAccount = new BankAccount();
 
+        System.out.println(dayaAccount.BANK_NAME);
     }
 
 }
