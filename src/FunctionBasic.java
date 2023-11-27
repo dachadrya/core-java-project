@@ -13,10 +13,10 @@ public void add(int a, int b){
         int result = a+b;
         System.out.println(result);
 }
-public int subtract(int a, int b){
+public void subtract(int a, int b){
         int result=a-b;
         System.out.println(result);
-        return result;
+
 }
 public void multiply(int a, int b){
         int result;
