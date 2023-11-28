@@ -1,7 +1,9 @@
-import com.sun.jdi.PathSearchingVirtualMachine;
+package oopconcept;
+
 public class BankAccount{
     String accountHolderName;
     String accountNumber;
+   AccountType accountType;
     double accountBalance;
     String routingNumber;
     String socialSecurityNumber;
@@ -18,6 +20,8 @@ public class BankAccount{
         BankAccount abcAccount = new BankAccount();
 
         System.out.println(dayaAccount.BANK_NAME);
+        dayaAccount.accountType=AccountType.CHECKING;
+        System.out.println(dayaAccount.accountType);
     }
 
 }
