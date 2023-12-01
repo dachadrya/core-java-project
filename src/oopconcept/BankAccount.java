@@ -7,6 +7,8 @@ public class BankAccount{
     private double accountBalance;
     private String routingNumber;
     private String socialSecurityNumber;
+    private String publicSocialSecurityNumber;
+
     private  String accountHolderAddress;
     private  String accountHolderDOB;
     private Gender accountHolderGender;
@@ -23,7 +25,7 @@ public class BankAccount{
   }
 
 
-  public void setAccountNumber(){
+  public void setAccountNumber(String AccountNumber){
     this.accountNumber=accountNumber;
   }
 
@@ -68,10 +70,10 @@ public class BankAccount{
   public void setSocialSecurityNumber(String socialSecurityNumber) {
 
     this.socialSecurityNumber = socialSecurityNumber;
+    this.publicSocialSecurityNumber=socialSecurityNumber.substring(socialSecurityNumber.length()-4);
   }
-  public String getSocialSecurityNumber(){
-
-    return this.socialSecurityNumber;
+  public String getPublicSocialSecurityNumber(){
+    return this.publicSocialSecurityNumber;
   }
 
   public void setAccountHolderAddress(String accountHolderAddress){
@@ -93,9 +95,11 @@ public class BankAccount{
   }
 
   public void setAccountHolderGender(Gender accountHolderGender){
+
     this.accountHolderGender=accountHolderGender;
   }
   public Gender getAccountHolderGender() {
+
     return accountHolderGender;
   }
 

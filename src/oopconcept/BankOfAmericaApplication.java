@@ -6,9 +6,9 @@ public class BankOfAmericaApplication {
         BankAccount abcAccount = new BankAccount();
         abcAccount.setAccountBalance(1000.0);
         double balance=abcAccount.getAccountBalance();
-
-        System.out.println(balance);
-        //dayaAccount.accountType=AccountType.CHECKING;
-        //System.out.println(dayaAccount.accountType);
+        System.out.println("accountBalance:  "+balance);
+        dayaAccount.setSocialSecurityNumber("123456789");
+       String lastFourNumberOfSocialSecurityNumber=dayaAccount.getPublicSocialSecurityNumber();
+        System.out.println("lastFourDigitOfSSN: " +lastFourNumberOfSocialSecurityNumber);
     }
 }
