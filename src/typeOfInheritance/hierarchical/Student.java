@@ -1,5 +1,8 @@
-package oopconcept.inheritance;
-public class student extends Person{
+package typeOfInheritance.hierarchical;
+
+import typeOfInheritance.hierarchical.Person;
+
+public class Student extends Person {
     private String grade;
 
     public void setGrade(String grade) {

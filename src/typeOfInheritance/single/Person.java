@@ -1,4 +1,4 @@
-package oopconcept.inheritance;
+package typeOfInheritance.single;
 
 import oopconcept.Gender;
 

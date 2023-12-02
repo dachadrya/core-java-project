@@ -1,6 +1,6 @@
-package oopconcept.inheritance;
+package typeOfInheritance.hierarchical;
 
-public class Teacher extends Person{
+public class Teacher extends Person {
 private String academicQualification;
 
     public void setAcademicQualification(String academicQualification) {

@@ -1,6 +1,7 @@
-package oopconcept.inheritance;
+package typeOfInheritance.hierarchical;
 
 import oopconcept.Gender;
+import typeOfInheritance.hierarchical.Teacher;
 
 public class SchoolApplication {
     public static void main(String[] args) {
